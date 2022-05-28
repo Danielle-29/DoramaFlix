@@ -9,4 +9,4 @@ Projeto desenvolvido com
 * CSS;
 * JQUERY
 
-Obrigada professor  @felipeAguiarCode pelas aulas e  atividade proposta.
+Obrigada professor  @github/felipeAguiarCode pelas aulas e pela atividade proposta.
