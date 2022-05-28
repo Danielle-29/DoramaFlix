@@ -11,6 +11,8 @@ Projeto desenvolvido com
 
 Obrigada professor  @github/felipeAguiarCode pelas aulas e pela atividade proposta.
 
+Foi adicionadouma letra externa ao titulo, colocado um carrosel para filmes e incluido o link para o trailer no botao assistir e tambem o link do filme/serie para a página do Netflix quando clica em cima dele
+
 ![WhatsApp Image 2022-05-28 at 11 50 24](https://user-images.githubusercontent.com/88143024/170831434-6ac52b4c-193e-46f0-99ad-407f163e14d4.jpeg)
 
 
