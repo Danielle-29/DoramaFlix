@@ -1,0 +1,144 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+@font-face {
+    font-family: 'Supernatural_knight';
+    src: url("Supernatural_Knight.ttf") format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-family: "Arial Black", Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/*FILME PRINCIPAL*/
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-sobrenatural1.jpg');
+
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 90px; 
+    margin-top: 10px;
+}
+
+.filme-principal .titulo {
+    margin-top: 10px;
+    font-family: "Supernatural_knight";
+    font-size: 50px;
+    margin-bottom: 90px; 
+    text-shadow: 0.1em 0.1em rgb(83, 83, 71);
+}
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    margin-top: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s ease all;
+    font-weight: bold;
+}
+
+.botao:hover{
+    background-color: white;
+    color:black;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+#elenco {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 30%;
+}
+
+.img box-filme {
+    height: 100%;
+    width: 100%;
+    display:block;
+}
+
+.carrosel-filmes {
+    margin-top: 10px;
+}
+
+.box-serie {
+    height: 100%;
+    width: 100%;
+    display:block;
+}
+
+.carrosel-series {
+    margin-top: 10px;
+}
+
+.series {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 9px;
+}
+
+.filmes {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 9px;
+}
+     
+    
+
+
